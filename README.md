@@ -9,7 +9,7 @@ World Food Fusion
 
 # About the Project
 
-This project is a web application for a pizza store. It is built using HTML, CSS, and Javascript. The application allows people view pizza store im and make reservation.
+This project is a web application for a pizza store. It is built using HTML, CSS, and Javascript. The application allows people view pizza store information and make reservation.
 
 
 # Navigating the Repo
