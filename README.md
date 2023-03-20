@@ -15,7 +15,7 @@ This project is a web application for a pizza store. It is built using HTML, CSS
 # Navigating the Repo
 
 The repository contains the source code for the application. 
-The main code files are organized in the following folders:
+The main code files are organized in the following folders/files:
 
     1.css: contains the css source code files
     2.image: constains image files
@@ -38,15 +38,15 @@ Before contributing to the project, please read the following guidelines:
 
 Here's a process for conducting unit testing for this project:
 
-  1. Set up a testing environment: Create a separate database for testing purposes and configure the application to use this database instead of the production database.
+  1. Set up a testing environment: Create a separate branch for testing purposes and configure the application to use this new codebase instead of the production codebase.
 
-  2. Identify test cases: Identify the key functionality of the application, such as registration, login, and updating personal information. Write test cases for each of these functions.
+  2. Identify test cases: Identify the key functionality of the application, such as registration, reservation and naviagtion. Write test cases for each of these functions.
 
-  3. Write unit tests: Using a unit testing framework such as JUnit, write tests that check the expected behavior of each function. For example, a test for the registration function should check that a new user is created in the database with the correct information.
+  3. Write unit tests: Using a unit testing framework such as Jest, write tests that check the expected behavior of each function. For example, a test for the registration function should check that a new user is inputed with the correct information.
 
   4. Run tests: Run the unit tests and ensure that all tests pass. If any tests fail, investigate the issue and fix the code before running the tests again.
 
-  5. Automate testing: To streamline the testing process, consider automating the unit tests using a continuous integration tool like Jenkins or Travis CI. This will ensure that tests are run automatically every time code changes are made, reducing the risk of introducing bugs into the application.
+  5. Automate testing: To streamline the testing process, consider automating the unit tests using a continuous integration framework like Jest. This will ensure that tests are run automatically every time code changes are made, reducing the risk of introducing bugs into the application.
 
   6. Repeat: As new features are added to the application or bugs are fixed, continue to write new unit tests and run existing tests to ensure that everything is working as expected. This will help to maintain the overall quality and reliability of the application.
    
